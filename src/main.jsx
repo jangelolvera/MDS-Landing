@@ -7,7 +7,6 @@ import { Home } from './Components/Home'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <NavBar></NavBar>
-    <Home/>
     
   </React.StrictMode>,
 )

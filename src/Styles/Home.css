@@ -1,50 +1,20 @@
-p{
-   
-    color: #e3e3e3;
-    font-family: 'Roboto', sans-serif;
-    width: 50%;
-    font-weight: 700;
-    font-size: 30px;
-
-}
-
-button{
-    width: 200px;
-    background-color: #ee7706;
-    border-radius: 10px;
-}
-
-#backg{
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/backImg.jpg');
-    position: center;
-    background-repeat: no-repeat;
+.bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../Images/backImg.jpg');
     background-size: cover;
-    box-shadow: inset 100px 200px 700px 0px black; 
-
-}
-
-#cont{
-    height: 100%;
-
-}
-
-#txtbtn{
-    position: absolute;
-    top: 44%;
-    left: 10%;
+    height: 100vh;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 30%;
-    max-width: 50%;
-    
+    flex-direction: column
 }
 
-#homeBtn{
-    color: #e3e3e3;
+.about{
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #e3e3e3;
+    position: absolute;
+    margin: 5%;
+    text-align: left;
+    width: 40%;
 
 }
