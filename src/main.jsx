@@ -7,6 +7,7 @@ import {AcercaDe} from './Components/AcercaDe'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    
       <NavBar/>
       <Home/>
       <AcercaDe/>
