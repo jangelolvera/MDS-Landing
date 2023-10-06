@@ -1,4 +1,4 @@
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from 'react-bootstrap/Carousel';
 import barrena from '../Images/barrena.jpg';
 import barco from '../Images/barco.jpg';
 import workers from '../Images/workers.png';
