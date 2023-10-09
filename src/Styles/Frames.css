@@ -1,0 +1,77 @@
+
+.Frame{
+
+    width: 47%;
+    height: 35%;
+    flex-basis: 45%;
+    flex-grow: 1;
+    background-color:wheat ;
+    display: block;
+    margin: 1%;
+    border-radius: 3%;
+    padding: 5%;
+    text-align: right;
+    
+}
+
+#frame1{
+
+    background-image: url('../Images/tubomds.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#frame2{
+
+    background-color: #A3BF9A;
+
+}
+
+#frame3{
+
+    background-color: #F39F50;
+
+}
+
+#frmae4{
+
+    background-color: #E7E7E7;
+}
+
+#frame5{
+    background-image: url('../Images/pozo.jpg');
+    background-size: cover;
+    background-position: center;
+    
+   
+    
+}
+
+
+.cardsTxt{
+
+    color: #E7E7E7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+#cardsTxtBlack{
+
+    color: #615B5B;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+#frameContainer{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    height: 100vh;
+    
+}
