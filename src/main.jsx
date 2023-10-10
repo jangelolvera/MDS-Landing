@@ -6,21 +6,12 @@ import {AcercaDe} from './Components/AcercaDe';
 import {Servicios} from './Components/Servicios';
 import {Frames} from './Components/Frames';
 import { Nav } from 'react-bootstrap';
+import { Contacto } from './Components/Contacto';
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    
-    <NavBar/>
-
-    <Home/>
-
-    <AcercaDe/>
-
-    <Servicios/>
-
-    <Frames/>
-
-    
+    <Contacto></Contacto>
   </React.StrictMode>,
 )
