@@ -17,7 +17,7 @@ export const NavBar = () => {
         className="bg-body-tertiary"
       >
         <Container fluid>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#Home">
             <img src={logo} alt="logo" width="150" height="40" />
           </Navbar.Brand>
 
@@ -29,7 +29,7 @@ export const NavBar = () => {
               navbarScroll
             >
               <Nav.Link href="#home">Acerca de</Nav.Link>
-              <Nav.Link href="#features">Servicios</Nav.Link>
+              <Nav.Link href="#Servicios">Servicios</Nav.Link>
               <Nav.Link href="#pricing">Experiencia</Nav.Link>
               <Nav.Link href="#pricing">Contacto</Nav.Link>
             </Nav>

@@ -3,6 +3,7 @@ import Palma from '../Images/alexPalma.png';
 import Olvera from '../Images/olvera.jpg';
 import linkedIn from '../Images/linkedin.png';
 import MailLogo from '../Images/mail.png';
+import Celular from '../Images/llamada.png';
 
 
 export const Contacto = () => {
@@ -44,14 +45,14 @@ export const Contacto = () => {
                 </li>
 
                 <li>
-                    <a href="alejandro.palma@mdrills.com">
+                    <a href="mailto: alejandro.palma@mdrills.com">
                         <img src={MailLogo}/>
                     </a>
                 </li>
 
                 <li>
-                    <a href="https://envato.com">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-envato.svg"/>
+                    <a href="tel:527821689698">
+                        <img src={Celular}/>
                     </a>
                 </li>
             </ul>
@@ -87,14 +88,14 @@ export const Contacto = () => {
                 </li>
 
                 <li>
-                    <a href="https://codepen.io/tutsplus">
+                    <a href="mailto:jesus.olvera2@mdrills.com">
                         <img src={MailLogo}/>
                     </a>
                 </li>
 
                 <li>
-                    <a href="https://envato.com">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-envato.svg"/>
+                    <a href="tel:527737364394">
+                        <img src={Celular}/>
                     </a>
                 </li>
             </ul>

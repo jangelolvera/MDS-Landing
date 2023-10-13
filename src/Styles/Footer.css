@@ -1,0 +1,75 @@
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #031B61;
+    height: 50vh;
+    width: 100%;
+    min-height: 50%;
+    padding-top: 6%;
+    margin-bottom: 0%;
+    margin: 0%;
+}
+
+
+hr{
+    border-top: 2px solid #EAEAEA;
+}
+
+#footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 4%;
+    margin-left: 4%;
+    
+    
+}
+
+#logoFoot{
+    width: 10%;
+    height: 10%;
+}
+
+#linksBox{
+    display: flex;
+    flex-direction: column;
+    color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.6;
+
+}
+
+#developed{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+#linkLogo{
+    width: 3%;
+    height: 3%;
+}
+
+#creditBox{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 2%;
+    align-items: flex-end;
+    margin-top: 7%;
+
+}
+
+#iconCredit{
+    display: flex;
+    flex-direction: column;
+}
+
+#iconCredit a{
+    text-decoration: none;
+    color: #EAEAEA;
+    opacity: 0.6;
+
+}

@@ -5,7 +5,9 @@
   
   
   body {
-    background-color: #18191A;
+    background-color: #3d3d3d;
+    min-height: 100vh;
+   
   }
   .ag-courses_box {
     display: -webkit-box;
