@@ -15,7 +15,7 @@ export const Frames = () => {
 
         <div className="Frame" id="frame3">
           <span className="cardsTxt">
-            Trabajos de performance en integración direccional-barrenas
+            Trabajos de performance en direccional-barrenas
           </span>
         </div>
 

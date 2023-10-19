@@ -12,7 +12,7 @@ export const Home = () => {
           </span>
 
           <button type="button">
-            <span id="contactTxt">Contáctanos</span>
+            <span id="contactTxt" >Contáctanos</span>
           </button>
         </div>
       

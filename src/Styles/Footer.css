@@ -28,8 +28,8 @@ hr{
 }
 
 #logoFoot{
-    width: 10%;
-    height: 10%;
+    width: 20vh;
+    height: 8vh;
 }
 
 #linksBox{
@@ -48,18 +48,18 @@ hr{
 }
 
 #linkLogo{
-    width: 3%;
-    height: 3%;
+    width: 7vh;
+    height: 7vh;
 }
 
 #creditBox{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    margin: 2%;
+    margin: 8vh;
     align-items: flex-end;
     margin-top: 7%;
-
+    
 }
 
 #iconCredit{

@@ -1,11 +1,11 @@
 button{
 
-    width: 180px;
-    height: 60px;
+    width: 25.17vh;
+    height: 8.39vh;
     margin-left: 8%;
     margin-bottom: 1%;
     margin-top: 2%;
-    border-radius: 15px;
+    border-radius: 2.09vh;
     background-color: #ee7706 !important;
 
 }
@@ -30,7 +30,7 @@ button{
 
     width: 40%;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 5vh;
     font-weight: 500;
     color: #e3e3e3;
     text-align: left;
@@ -42,7 +42,7 @@ button{
 #contactTxt{
 
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 3vh;
     font-weight: 500;
     color: #e3e3e3;
 

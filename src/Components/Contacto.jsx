@@ -19,7 +19,7 @@ export const Contacto = () => {
         <aside className="profile-card">
 
             <header>
-                <a href="https://tutsplus.com">
+                <a href="https://www.linkedin.com/in/arturo-alejandro/">
                     <img src={Palma}/>
                 </a>
 
@@ -32,14 +32,16 @@ export const Contacto = () => {
 
             <div className="profile-bio">
 
-                <p>Terence is an avid reader of science fiction, especially anything to do with aliens and tweed jackets. Most weekends, he can be found cataloguing his collection of rodent skeletons.</p>
+                <p>
+                    20 años Experiencia en puestos directivos del ramo energético para diversas empresas internacionales.
+                </p>
 
             </div>
 
             <ul className="profile-social-links">
   
                 <li>
-                    <a href="https://twitter.com/tutsplus">
+                    <a href="https://www.linkedin.com/in/arturo-alejandro/">
                         <img src={linkedIn} />
                     </a>
                 </li>
@@ -62,7 +64,7 @@ export const Contacto = () => {
         <aside className="profile-card">
 
             <header>
-                <a href="https://tutsplus.com">
+                <a href="https://www.linkedin.com/in/jjolveram/">
                     <img src={Olvera}/>
                 </a>
 
@@ -75,7 +77,10 @@ export const Contacto = () => {
 
             <div className="profile-bio">
 
-                <p>Terence is an avid reader of science fiction, especially anything to do with aliens and tweed jackets. Most weekends, he can be found cataloguing his collection of rodent skeletons.</p>
+                <p>
+                20 años de experiencia en perforación direccional en México, Sudamérica y E.U. Trabajando para empresas globales como, 
+                Schlumberger, Baker Hughes y Halliburton.
+                </p>
 
             </div>
 

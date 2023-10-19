@@ -13,7 +13,14 @@ export const Footer = () => {
           <a>Acerca de</a>
         </div>
 
-        <img src={LinkedIn} alt="LinkedIn" id="linkLogo" />
+        <a href="https://www.linkedin.com/company/mds-soluciones/">
+          <img
+            src={LinkedIn}
+            alt="LinkedIn"
+            id="linkLogo"
+            
+          />
+        </a>
       </div>
 
       <hr></hr>

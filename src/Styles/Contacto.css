@@ -18,6 +18,17 @@
   
 }
 
+@media (max-width: 800px) {
+    #contactBox {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5vh;
+      height: 100%;
+      margin: 10%;
+    }
+  }
+
 #dudaTxt{
     display: flex;
     flex-direction: column;
@@ -35,12 +46,12 @@
 
 
 .profile-card {
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    height: 200px;
+    -webkit-border-radius: 0.41vh;
+    -moz-border-radius: 0.41vh;
+    border-radius: 0.41vh;
+    height: 27.97vh;
     margin: 0;
-    width: 320px;
+    width: 44.75vh;
     overflow: hidden;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -54,27 +65,28 @@
 
 .profile-card header {
     background: #ff7043;
-    padding: 1px;
-    height: 8px;
+    padding: 0.13vh;
+    height: 1.11vh;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+   align-content: center;
 }
 
 .profile-card header img {
-    border: 5px solid #fff;
+    border: 0.069vh solid #fff;
     border-radius: 50%;
     display: block;
-    margin: 10px auto;
-    width: 120px;
+    margin: 1.39vh auto;
+    width: 16.78vh;
 }
 
 .profile-card header h1 {
     color: #ff7043;
     font-family: "Open Sans";
     font-weight: 500;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.069vh;
     margin: 0;
     text-align: center;
     line-height: 1;
@@ -82,16 +94,16 @@
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    font-size: 28px;
+    font-size: 3.91vh;
 }
 
 .profile-card header h2 {
     color: #ff7043;
     font-family: "Open Sans";
-    font-size: 16px;
+    font-size: 2.23vh;
     font-weight: 400;
-    letter-spacing: 4px;
-    margin: 0 0 5px;
+    letter-spacing: 0.55vh;
+    margin: 0 0 0.69vh;
     text-align: center;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -100,7 +112,7 @@
 }
 
 .profile-card .profile-bio {
-    padding: 20px;
+    padding:2.79vh;
     position: relative;
     opacity: 0;
     -webkit-transition: all 0.3s 0.25s;
@@ -111,7 +123,7 @@
 
 .profile-card .profile-bio p {
     color: #999;
-    font-size: 14px;
+    font-size: 1.95vh;
     font-style: italic;
     text-align: center;
     font-family:  "Open Sans";
@@ -123,17 +135,17 @@
     margin: 0 auto;
     padding: 0;
     position: relative;
-    width: 160px;
+    width: 22.37vh;
 }
 
 .profile-card .profile-social-links li {
     display: block;
     float: left;
-    -webkit-transform: translateY(100px);
-    -moz-transform: translateY(100px);
-    -ms-transform: translateY(100px);
-    -o-transform: translateY(100px);
-    transform: translateY(100px);
+    -webkit-transform: translateY(13.98vh);
+    -moz-transform: translateY(13.98vh);
+    -ms-transform: translateY(13.98vh);
+    -o-transform: translateY(13.98vh);
+    transform: translateY(13.98vh);
     -webkit-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.25s;
     -moz-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.25s;
     -ms-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405) 0.25s;
@@ -159,14 +171,15 @@
     border-radius: 50%;
     display: block;
     float: left;
-    height: 40px;
-    margin: 0 5px;
+    height: 5.59vh;
+    margin: 0.069vh;
     outline: 0 none;
-    width: 40px;
+    width: 5.59vh;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+
 }
 
 .profile-card .profile-social-links li a:hover {
@@ -178,17 +191,17 @@
 }
 
 .profile-card .profile-social-links li a img {
-    padding: 5px;
-    width: 40px;
+    padding: 0.69vh;
+    width: 6vh;
 }
 
 /*  CHANGES  ON HOVER  */
 
 .profile-card:hover {
-    height: 420px;
+    height: 58.74vh;
 }
 .profile-card:hover header {
-    height: 200px;
+    height: 27.97vh;
 }
 
 .profile-card:hover header h1,
