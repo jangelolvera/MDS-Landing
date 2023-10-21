@@ -1,4 +1,9 @@
-#logoImg{
-    width: 208px;
-    height: 60px;
+
+.navbar-toggler{
+    width: 18vh;
+    height: 7vh;
+}
+
+body{
+    width: 100%;
 }

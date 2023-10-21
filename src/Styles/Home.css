@@ -10,6 +10,10 @@ button{
 
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 
 .bg-image{
 
@@ -28,7 +32,7 @@ button{
 
 .about{
 
-    width: 40%;
+    width: 50vh;
     font-family: 'Roboto', sans-serif;
     font-size: 5vh;
     font-weight: 500;
@@ -46,4 +50,30 @@ button{
     font-weight: 500;
     color: #e3e3e3;
 
+}
+
+@media only screen and (max-width: 700px) {
+    .about{
+
+        text-align: center;
+        font-weight: 600;
+        font-size: 4.5vh;
+        width: 45vh;
+        margin: 0;
+        margin-top: 10vh;
+    }
+
+    .bg-image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.3)), url('../Images/backImg.jpg');
+
+    }
+
+    #contactTxt{
+        font-weight: 600;
+        font-size: 3vh;
+    }
 }

@@ -73,3 +73,22 @@ hr{
     opacity: 0.6;
 
 }
+
+@media only screen and (max-width: 700px) {
+    #creditBox{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        gap: 10%;
+        margin: 3%;
+        align-items: flex-end;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+        padding-top: 30%;    
+        
+    }
+}
