@@ -1,14 +1,14 @@
 import "../Styles/Frames.css";
+import tubo from "../Images/tubomds.png";
 
 export const Frames = () => {
   return (
     <>
       <div id="frameContainer">
-        <div className="Frame" id="frame1"></div>
+        <img src={tubo} id="tuboImg" className="Frame"/>
 
         <div className="Frame" id="frame2">
           <span className="cardsTxt">
-           
             Experiencia en perforación y reparación de pozos
           </span>
         </div>
